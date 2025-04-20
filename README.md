@@ -6,6 +6,7 @@ This was our self-study project for MTL782 Assignment 2 under Prof Niladri Chatt
 
 The goal of this project was to explore and compare various approaches for clustering images from a subset of the Food-101 dataset. We compared traditional computer vision features (like SIFT, HOG, Color Histograms) with features derived from deep learning models (ResNet-50, EfficientNet-B0) and text-guided methods (generating captions/answers with BLIP/VILT and embedding them with SBERT). We were also motivated to see if fine-tuning deep learning models on the specific food dataset could adapt them to the domain distribution and improve clustering performance.
 
+! [img](https://github.com/harshit1912003/TGIC/blob/main/dataset.png)
 ## Results and Inferences
 
 * **Classical Features**: Traditional features generally resulted in poor clustering performance, with very low Adjusted Rand Index (ARI) scores, indicating they weren't sufficiently discriminative for this task.
